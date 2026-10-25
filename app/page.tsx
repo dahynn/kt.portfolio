@@ -103,7 +103,7 @@ export default function Home() {
           <h1 id="portfolio-title" className="cover-platform-title">
             <span className="cover-platform-line">찾는 시간을 <em className="cover-platform-data-accent">줄이고,</em></span>
             <span className="cover-platform-line cover-platform-data">찾은 정보를 <span className="cover-title-highlight"><em>바로 쓰게 만드는</em></span></span>
-            <span className="cover-platform-line cover-platform-conclusion"><span className="cover-platform-role">개발자 유다현</span></span>
+            <span className="cover-platform-line cover-platform-conclusion"><span className="cover-platform-role">개발자</span></span>
           </h1>
         </div>
         <p className="page-number">01</p>
