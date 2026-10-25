@@ -102,7 +102,7 @@ export default function Home() {
         <div className="profile-details">
           <h1 id="portfolio-title" className="cover-platform-title">
             <span className="cover-platform-line cover-platform-opening"><span className="cover-find-prefix">찾는 시간을</span><em className="cover-platform-data-accent cover-reduce-word">줄이고,</em></span>
-            <span className="cover-platform-line cover-platform-data">찾은 정보를 <span className="cover-title-highlight"><em><span className="cover-use-word">바로 쓰게<MousePointer2 className="cover-use-cursor" aria-hidden="true" /></span> 만드는</em></span></span>
+            <span className="cover-platform-line cover-platform-data">찾은 정보를 <span className="cover-title-highlight cover-use-word"><em>바로 쓰게</em><MousePointer2 className="cover-use-cursor" aria-hidden="true" /></span> 만드는</span>
             <span className="cover-platform-line cover-platform-conclusion"><span className="cover-platform-role">개발자</span></span>
           </h1>
         </div>
