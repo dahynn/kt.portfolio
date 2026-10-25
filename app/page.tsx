@@ -1,6 +1,6 @@
 /* oxlint-disable next/no-img-element -- 원본 GIF 애니메이션과 고정 비율 포트폴리오 자산을 그대로 표시합니다. */
 import { PageSnap } from '../components/PageSnap';
-import { ArrowDown, CheckCircle2, Mail, UserRound, UsersRound } from 'lucide-react';
+import { ArrowDown, CheckCircle2, Mail, MousePointer2, UserRound, UsersRound } from 'lucide-react';
 import { ProjectCaseStudies } from '../components/ProjectCaseStudies';
 import { SkillCriteria } from '../components/SkillCriteria';
 import { projectEvidence } from '../components/projectEvidence';
@@ -101,8 +101,8 @@ export default function Home() {
         </div>
         <div className="profile-details">
           <h1 id="portfolio-title" className="cover-platform-title">
-            <span className="cover-platform-line">찾는 시간을 <em className="cover-platform-data-accent">줄이고,</em></span>
-            <span className="cover-platform-line cover-platform-data">찾은 정보를 <span className="cover-title-highlight"><em>바로 쓰게 만드는</em></span></span>
+            <span className="cover-platform-line cover-platform-opening"><span className="cover-find-prefix">찾는 시간을</span><em className="cover-platform-data-accent cover-reduce-word">줄이고,</em></span>
+            <span className="cover-platform-line cover-platform-data">찾은 정보를 <span className="cover-title-highlight"><em><span className="cover-use-word">바로 쓰게<MousePointer2 className="cover-use-cursor" aria-hidden="true" /></span> 만드는</em></span></span>
             <span className="cover-platform-line cover-platform-conclusion"><span className="cover-platform-role">개발자</span></span>
           </h1>
         </div>
