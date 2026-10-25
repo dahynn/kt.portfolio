@@ -1,0 +1,54 @@
+/* kt is 공식 CI: #ED1C24 / #000000. 프로젝트 화면과 기술 도식의 고유색은 유지합니다. */
+:root { --accent:#ed1c24; --accent-light:#f7d6d8; --highlight:#ed1c24; }
+.kt-is-cover-logo { position:absolute; z-index:3; top:2.25rem; left:clamp(2rem,4vw,5rem); width:108px; height:auto; object-fit:contain; }
+#introduction .page-number { top:auto; bottom:2.25rem; }
+.kt-is-journey-logo { position:absolute; z-index:2; top:2.25rem; right:clamp(2rem,4vw,5rem); width:108px; height:auto; object-fit:contain; }
+#journey>.page-number { top:auto; bottom:1.5rem; }
+#journey .journey-item { --line-color:#d9dadd; }
+#journey .journey-item:nth-child(2) { --line-color:#d4c9ca; }
+#journey .journey-item:nth-child(3) { --line-color:#cfb7b9; }
+#journey .journey-item:nth-child(4) { --line-color:#d19b9e; }
+#journey .journey-item:nth-child(5) { --line-color:#d67e83; }
+#journey .journey-item:nth-child(6) { --line-color:#dc6269; }
+#journey .journey-item:nth-child(7) { --line-color:#e24750; }
+#journey .journey-item:nth-child(8) { --line-color:#e9313b; }
+#journey .journey-item:nth-child(9) { --line-color:#ed1c24; }
+#journey .journey-track::before { background:linear-gradient(to bottom,#d9dadd 0%,#cfb7b9 25%,#d67e83 50%,#e24750 75%,#ed1c24 100%); }
+#journey .journey-destination { display:flex; align-items:center; flex-wrap:wrap; gap:1rem 2rem; }
+#journey .journey-destination .kt-is-destination-logo { flex:0 0 auto; width:108px; height:auto; max-width:100%; margin:0; }
+#introduction .profile-details>h1.cover-platform-title { font-size:clamp(1.6rem,2.65vw,2.9rem); }
+#introduction .cover-platform-title .cover-platform-line { line-height:1.6; }
+#introduction .profile-details>h1.cover-platform-title .cover-platform-data-accent { color:#ff666c; }
+#introduction .cover-platform-title .cover-platform-conclusion { margin-top:.4em; color:#fff; }
+#introduction .profile-details>h1.cover-platform-title .cover-title-highlight::after { height:.2em; background:#ed1c24; opacity:1; }
+.journey-item .role-journey-highlight::before { background:rgba(237,28,36,.18); }
+.project-store .store-scroll { background:#fff0f0; border-color:#f4cacc; color:#a91820; }
+.project-store .store-scroll:hover { background:#fbe1e3; border-color:#ed1c24; color:#a91820; }
+.project-store .store-scroll:focus-visible { outline:2px solid #ed1c24; outline-offset:4px; }
+.san-evidence-search { --san-ink:#1c3029; --san-green:#4f9482; --story-muted:#65736a; --story-surface:#e4ebe6; --story-accent:#4f9482; color:#1c3029; background:#f3f8f4; }
+.san-evidence-search .san-evidence-header { border-bottom-color:#cdded3; }
+.san-evidence-search .san-evidence-header h3 { max-width:none; color:#1c3029; }
+.san-evidence-search .san-evidence-header>p { color:#52685d; }
+.san-evidence-search .san-evidence-header>div small { color:#687d70; }
+.kt-search-diagram { color:#253b30; padding:clamp(1rem,2vw,2rem); border:1px solid #d2dfd5; border-radius:1rem; background:#f6faf7; }
+.kt-search-route { display:grid; grid-template-columns:1fr 1.25rem 1fr; align-items:center; gap:.7rem; margin-bottom:1.6rem; }
+.kt-search-route>div { display:grid; gap:.55rem; padding:1rem .8rem; border:1px solid #d8dfda; border-radius:.7rem; background:#fff; text-align:center; }
+.kt-search-route small { color:#77837b; font-size:.65rem; font-weight:800; letter-spacing:.1em; }
+.kt-search-route strong { font-size:clamp(.9rem,1.25vw,1.2rem); }
+.kt-search-route span { font-size:.75rem; color:#65736a; }
+.kt-search-route .is-after { border-color:#9cbda7; background:#eaf4ed; }
+.kt-search-route>svg { transform:rotate(-90deg); width:1.25rem; }
+.kt-search-diagram .story-bars { margin:1.2rem 0; }
+.kt-search-diagram .story-bars>div { display:grid; grid-template-columns:2rem minmax(0,1fr) 6rem; align-items:center; gap:.7rem; }
+.kt-search-diagram .story-bars>div>span { grid-column:auto; }
+.kt-search-diagram .story-bars>div>strong { font-size:1.25rem; text-align:right; white-space:nowrap; }
+.kt-search-diagram .story-bars>div>span { font-size:.8rem; }
+.kt-search-proof { display:flex; align-items:center; gap:1rem; margin-top:1.5rem; padding:1rem 0; border-top:1px solid #d2dfd5; }
+.kt-search-proof strong { font-size:1.8rem; font-weight:800; }
+.kt-search-proof span { color:#53685a; font-size:.85rem; }
+.san-evidence-search .story-query-rules { display:flex; flex-wrap:wrap; gap:.4rem; }
+.san-evidence-search .story-query-rules span { padding:.45rem .65rem; border:1px solid #d2dfd5; border-radius:.4rem; font-size:.72rem; }
+@media(max-width:760px) {
+  #introduction .profile-details>h1.cover-platform-title { font-size:clamp(1.1rem,4.8vw,1.8rem); }
+  .kt-is-cover-logo { width:90px; top:1.4rem; }
+}
