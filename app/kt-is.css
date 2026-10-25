@@ -1,4 +1,30 @@
 /* kt is 공식 CI: #ED1C24 / #000000. 프로젝트 화면과 기술 도식의 고유색은 유지합니다. */
+@font-face {
+  font-family:'Y Spotlight';
+  src:url('/assets/fonts/Y-Spotlight.otf') format('opentype');
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+}
+
+/* CJ 포트폴리오와 같은 제목 범위. 본문·수치·기술 설명은 Pretendard를 유지합니다. */
+#introduction .profile-details>h1.cover-platform-title,
+.profile-record-heading h2,
+.journey-heading .section-kicker,
+.journey-heading h2,
+.project-store .index-heading h2,
+.project-store .store-copy h3,
+.journey-page .journey-copy>strong,
+.roundy-race-summary h4,
+.story-heading h3,
+.capsure-blueprint-header h3,
+.roundy-verification-header h3,
+.roundy-unified-header h3,
+.san-evidence-header h3 {
+  font-family:'Y Spotlight',Pretendard Variable,Pretendard,sans-serif;
+  font-weight:400;
+  font-synthesis:none;
+}
 :root { --accent:#ed1c24; --accent-light:#f7d6d8; --highlight:#ed1c24; }
 .kt-is-cover-logo { position:absolute; z-index:3; top:2.25rem; left:clamp(2rem,4vw,5rem); width:108px; height:auto; object-fit:contain; }
 #introduction .page-number { top:auto; bottom:2.25rem; }
